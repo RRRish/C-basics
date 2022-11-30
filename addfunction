@@ -1,0 +1,18 @@
+#include<stdio.h>
+int addition();    
+int main()
+{
+    int display; 
+   display = addition();         
+   printf("The addition of the 2 number is %d", display); 
+   return 0;
+}
+
+int addition()        
+{
+    int i, j, add;  
+    printf("Enter 2 numbers \n");
+    scanf("%d%d", &i, &j);    
+    add=i+j;   
+return add;
+}
